@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfGreatProject.CreateCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CreateCustomer" Height="600" Width="800">
+    <Grid ShowGridLines="True">
+        <WrapPanel>
+            <Label Content="First Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Last Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Nationality"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Ocupation"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+            <Label Content="Customer Name"/>
+            <TextBox Width="300" MaxLength="30"/>
+                    
+        </WrapPanel>
+    </Grid>
+</Window>

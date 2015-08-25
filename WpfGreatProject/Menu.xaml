@@ -1,0 +1,25 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfGreatProject.Menu"
+        Title="Menu" Height="599.75" Width="1000">
+    <Window.Background>
+        <VisualBrush TileMode="Tile" Stretch="Uniform" >
+            <VisualBrush.Visual>
+                <UniformGrid/>
+            </VisualBrush.Visual>
+        </VisualBrush>
+    </Window.Background>
+    <UniformGrid HorizontalAlignment="Left" Height="554" Margin="6,8,0,0" VerticalAlignment="Top" Width="979">
+        <dxlc:TileLayoutControl Background="#FF0E6D38" Margin="0,0,4,-6"   >
+            <dxlc:Tile Header="Create Customer" dxlc:FlowLayoutControl.IsFlowBreak="True" Click="Create_Customer" >
+                <Image Source="Images/folder-customer-icon.png"/>
+            </dxlc:Tile>
+            <dxlc:Tile Header="Tile" Size="Small" dxlc:FlowLayoutControl.IsFlowBreak="True" Margin="-380,168.01,380,-168.01"/>
+            <dxlc:Tile Header="Tile" Size="Small" dxlc:FlowLayoutControl.IsFlowBreak="True" Margin="-440,168.01,440,-168.01"/>
+            <dxlc:Tile Header="Tile" Margin="-451.5,0,451.5,0" dxlc:FlowLayoutControl.IsFlowBreak="True" />
+            <dxlc:Tile Header="Tile" Margin="-831.5,168.01,831.5,-168.01" dxlc:FlowLayoutControl.IsFlowBreak="True"/>
+            <Label Content="Principal Menu" FontSize="30" FontFamily="cambria" Margin="-1200,-226,984,345" Foreground="#FFFFFEFE"/>
+        </dxlc:TileLayoutControl>
+    </UniformGrid>
+</Window>
